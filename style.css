@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../img/bg6.png');
+    background-size: 200%;
+}
+
+.nav{
+    background-color: rgba(46, 163, 222, 0.285);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link{
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1.5px;
+    transition: background-size .3s;
+}
+
+a:hover {
+    background-size: 100% 1.5px;
+}
+
+.avatar{
+    height: 187px;
+    width: 200px;
+    margin: 0px;
+    border: solid; 
+}
+
+.footer-page{
+    background-color: rgba(236, 57, 191, 0.266);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-elements{
+    margin: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 1440px;
+    margin: 20px 10px; 
+}
+
+.container2{
+    margin-top: 205px;
+}
+
+.container-row{
+    flex-direction: row;
+    align-content: center;
+    margin: 20px 0px; 
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+}
+
+.basic-info-el{
+    margin: 0px;
+    font-size: 38px;
+}
+
+.basic-info-el2{
+    margin: 0px;
+}
+
+.basic-info-el3{
+    margin: 0px;
+    font-size: 18px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.img-footer{
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+}
+
+.links-to-social-media{
+    margin-right: 10px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.all-container{
+    margin: 0;
+}
+
+/* @media (max-width: 768px) {
+    .section{
+        width: 100%;
+    }
+} */
+
+.contacts{
+    padding: 0;
+}
+
+.wrap {
+    width: 100%;
+    margin: auto;
+}
+
+.code{
+    margin-left: -137px;
+}
