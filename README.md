@@ -1,1 +1,1 @@
-# rsschool-cv2022
+https://yepihovaanastasia.github.io/rs2022/
