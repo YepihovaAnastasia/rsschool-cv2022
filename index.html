@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anastasia Yepihova</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../img/icon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div class="container all-container wrap">
+    <header class="header-container">
+      <div class="container">
+        <nav class="nav">
+          <a class="nav-link" href="#Contacts">Contacts</a>
+          <a class="nav-link" href="#Summary">Summary</a>
+          <a class="nav-link" href="#Education">Education</a>
+          <a class="nav-link" href="#Skills">Skills</a>
+          <a class="nav-link" href="#Languages">Languages</a>
+          <a class="nav-link" href="#Code-example">Code example</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container container-row">
+        <div class="container">
+          <section class="section">
+            <img class="avatar" src="../img/avatar.png" alt="Avatar" />
+            <div class="column">
+              <h1 class="basic-info-el">Yepihova</h1>
+              <h1 class="basic-info-el">Anastasia</h1>
+              <h3 class="basic-info-el2">Frontend developer</h3>
+              <h5 class="basic-info-el3">24.11.2003</h5>
+            </div>
+          </section>
+
+          <section class="section">
+            <div>
+              <h1 id="Contacts">Contacts</h1>
+              <ul class="contacts">
+                <span>Phone:</span>
+                <br>
+                <span>+375 (33) 664-91-73</span>
+                <p></p>
+                <span>Email:
+                  <br>
+                  <a href="https://mail.google.com/mail/u/0/?pli=1#inbox">anastasiayepihova@gmail.com</a>
+                </span>
+                <p></p>
+              </ul>
+
+              <div class="section">
+                <a class="links-to-social-media" href="https://t.me/userAna">
+                  <img src="../img/telegram.png" alt="Telegram" />
+                </a>
+                <a class="links-to-social-media" href="https://www.linkedin.com/feed/">
+                  <img src="../img/linkedin.png" alt="LinkedIn" />
+                </a>
+                <a class="links-to-social-media" href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fnastya_epihova%3Futm_medium%3Dcopy_link&cc_key=">
+                  <img src="../img/insta.png" alt="Instagram" />
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="container container2">
+          <section class="section">
+            <div>
+              <h1 id="Summary">Summary</h1>
+              <p>
+                My aim at the moment is to study frontend development. This is a
+                fascinating, through-provoking, creative industry. I have always
+                wanted to realize myself in this area. I plan to work and
+                develop in this field in the future.
+              </p>
+            </div>
+          </section>
+
+          <section class="section">
+            <div>
+              <h1 id="Education">Education</h1>
+              <p>
+                Completed basic general education, and this time I'm studying at
+                a college in the specialty "Information technology software".
+              </p>
+            </div>
+          </section>
+
+          <section class="section">
+            <div>
+              <h1 id="Skills">Skills</h1>
+              <ul>
+                <li>HTML5, CSS3</li>
+                <li>JS basic</li>
+                <li>GitHub, Git</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="section">
+            <div>
+              <h1 id="Languages">Languages</h1>
+              <ul>
+                <li>English - A2+</li>
+                <li>Russian - native</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="section">
+            <div>
+              <h1 id="Code-example">Code example</h1>
+              <pre class="code">
+                  <code>
+                    using System;
+                    using System.Linq;
+                    
+                    namespace ConsoleApp1
+                    {
+                        class Program
+                        {
+                            static bool IsPalindrome(string str)
+                            {
+                                return str == new string(str.Reverse().ToArray());
+                            }
+                    
+                            static void Main()
+                            {
+                                
+                                Console.Write("Введите строку: ");
+                                var str = Console.ReadLine();
+                                var result = IsPalindrome(str);
+                                var message = "Является ли строка '" + str + "' палиндромом: " + result;
+                    
+                                Console.WriteLine(message);
+                    
+                                Console.ReadKey();
+                            }
+                        }
+                    }
+                  </code>
+                </pre>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-page">
+          <a href="https://rs.school/js-stage0/">
+            <img class="img-footer" src="../img/rs_school_js.svg" alt="RS" />
+          </a>
+          <p class="footer-elements">2022</p>
+          <a href="https://rs.school/js-stage0/">
+            <img class="img-footer" src="../img/github-icon.svg" alt="GitHub" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>
