@@ -1,1 +1,1 @@
-https://yepihovaanastasia.github.io/rs2022/
+https://yepihovaanastasia.github.io/rsschool-cv2022/
